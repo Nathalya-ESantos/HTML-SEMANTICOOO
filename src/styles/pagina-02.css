@@ -41,6 +41,15 @@
     background-color: rgb(77, 217, 177);
 }
 
-p{
-    margin: 10px 20px 50px;
+.p-right{
+    margin-right: 50%;
+    margin-left: 15px;
+    background-color: blue;
+}
+
+
+.p-left{
+    margin-right: 50%;
+    margin-left: 15px;
+    background-color: blue;
 }
