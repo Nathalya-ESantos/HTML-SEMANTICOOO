@@ -1,0 +1,40 @@
+.box-content-box {
+    /* Largura e Altura da caixa*/
+    width: 200px;
+    height: 100px;
+
+    /*Margens internas da caixa*/
+    padding: 20px;
+
+    /*Borda da caixa*/
+    border: 2px solid black (90, 11, 150);
+
+    /*Espaço dentro da caixa*/
+    box-sizing: content-box;
+    background-color: pink (156, 117, 219);
+}
+
+/*Ignora o padding e o border (borda) */
+        .box-content-box{
+        width: 200px;
+        height: 100px;
+        padding: 20px;
+        border: 2px solid black (90, 11, 150);
+        box-sizing: content-box;
+        background-color: pink (156, 117, 219);
+
+}
+
+
+.container{
+    box-sizing: border-box;
+}
+
+.box.inherit{
+    width: 200px;
+        height: 100px;
+        padding: 20px;
+        border: 2px solid black (90, 11, 150);
+        box-sizing: inherit;
+        background-color: darkmagenta (156, 117, 219);
+}
