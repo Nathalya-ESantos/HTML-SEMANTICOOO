@@ -15,26 +15,29 @@
 }
 
 /*Ignora o padding e o border (borda) */
-        .box-content-box{
-        width: 200px;
-        height: 100px;
-        padding: 20px;
-        border: 2px solid black (90, 11, 150);
-        box-sizing: content-box;
-        background-color: pink (156, 117, 219);
+    .box-content-box{
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 2px solid black (90, 11, 150);
+    box-sizing: content-box;
+    background-color: pink (156, 117, 219);
+    
 
 }
 
 
 .container{
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 
 .box.inherit{
     width: 200px;
-        height: 100px;
-        padding: 20px;
-        border: 2px solid black (90, 11, 150);
-        box-sizing: inherit;
-        background-color: darkmagenta (156, 117, 219);
+    height: 100px;
+    padding: 20px;
+    border: 2px solid black (90, 11, 150);
+    box-sizing: inherit;
+    background-color: darkmagenta (156, 117, 219);
 }
+
+p{margin:10px 20px 50px}
