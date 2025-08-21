@@ -1,43 +1,46 @@
+/* Box Sizing */
+
 .box-content-box {
-    /* Largura e Altura da caixa*/
+    /* Largura e Altura da caixa */
     width: 200px;
     height: 100px;
 
-    /*Margens internas da caixa*/
+    /* Margens internas da caixa */
     padding: 20px;
 
-    /*Borda da caixa*/
-    border: 2px solid black (90, 11, 150);
+    /* Borda da caixa */
+    border: 2px solid rgb(90, 11, 150);
 
-    /*Espaço dentro da caixa*/
+    /* Espaço dentro da caixa */
     box-sizing: content-box;
-    background-color: pink (156, 117, 219);
+    background-color: rgb(156, 117, 219);
 }
 
-/*Ignora o padding e o border (borda) */
-    .box-content-box{
+/* Ignora o padding e o border (borda) */
+    .box-border-box {
     width: 200px;
-    height: 100px;
+    height: 200px;
     padding: 20px;
-    border: 2px solid black (90, 11, 150);
-    box-sizing: content-box;
-    background-color: pink (156, 117, 219);
-    
-
+    border: 2px solid rgb(38, 0, 255);
+    box-sizing: border-box;
+    background-color: rgb(93, 54, 221);
+    margin: 0 0 0 254px;
+    border-radius: 50%;
 }
-
 
 .container{
     box-sizing: content-box;
 }
 
-.box.inherit{
+.box-inherit{
     width: 200px;
     height: 100px;
     padding: 20px;
-    border: 2px solid black (90, 11, 150);
+    border: 2px solid rgb(88, 96, 212);
     box-sizing: inherit;
-    background-color: darkmagenta (156, 117, 219);
+    background-color: rgb(77, 217, 177);
 }
 
-p{margin:10px 20px 50px}
+p{
+    margin: 10px 20px 50px;
+}
