@@ -1,0 +1,82 @@
+.container-header{
+    background-color: darkblue;
+    text-align: center;
+    color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    width: 100vw ;
+    height: 10vh;
+
+}
+
+
+.container-header__menu {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 15px;
+ }
+
+
+.container-header__menu a {
+    color: #fff;
+    text-decoration: none;
+    height: 50px; 
+    width: 150px;
+    background-color: lightblue;
+    display: inline-block;
+    text-align: center;
+
+ }
+
+
+.container-header__menu a span{
+    display: inline-block;
+    margin: 16px auto;
+}
+
+/*Estilo para*/
+.main-container{
+    background-color: palevioletred;
+    width: 100vw;
+    height: 80vh;
+
+}
+
+.container-footer{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(10, 48, 58);
+    padding: 5px;
+    display: flex;
+}
+
+.container-footer span{
+    color:white
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial;
+    display:flex;
+    justify:-content: center;
+    /* Alinhar na vertical*/
+    align-items:center;
+
+}
+
+
+.sec-left{
+    width:20;
+    height:100;
+    background-color: purple;
+}
+
+.sec-center{
+    width:60%;
+    height:100%;
+    background-color: rgb(235, 122, 235);
+}
+
+.sec-right{
+    width:20%;
+    height:100%;
+    background-color: rgb(118, 93, 218);
+}
